@@ -43,7 +43,7 @@ public class Kantu extends Mentu {
         }
         for(int j: list){
             count=0;
-            for(int k=0;k<list.size()-1;k++){
+            for(int k=0;k<list.size();k++){
                 if(j==list.get(k)){
                     count +=1;
                     if(count==4){
