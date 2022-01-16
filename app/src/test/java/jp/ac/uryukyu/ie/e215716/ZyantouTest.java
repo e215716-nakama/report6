@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class ZyantouTest {
     @Test 
     void countZyantouTest() {
-        Zyantou demoZyantou = new Zyantou(0,0,0);
+        Zyantou demoZyantou = new Zyantou();
         demoZyantou.addHai("i-wan", 1);
         demoZyantou.addHai("i--wan",1);
         demoZyantou.countMentu(demoZyantou.getHai());

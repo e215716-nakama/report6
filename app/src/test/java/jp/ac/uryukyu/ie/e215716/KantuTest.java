@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class KantuTest {
     @Test 
     void countKantuTest() {
-        Kantu demoKantu = new Kantu(0, 0, 0);
+        Kantu demoKantu = new Kantu();
         demoKantu.addHai("i-wan", 1);
         demoKantu.addHai("i--wan", 1);
         demoKantu.addHai("i---wan", 1);

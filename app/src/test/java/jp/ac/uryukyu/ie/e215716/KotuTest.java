@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class KotuTest {
     @Test 
     void countKotuTest() {
-        Kotu demoKotu = new Kotu(0,0,0);
+        Kotu demoKotu = new Kotu();
         demoKotu.addHai("i-wan", 1);
         demoKotu.addHai("i--wan",1);
         demoKotu.addHai("i---wan", 1);

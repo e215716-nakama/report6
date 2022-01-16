@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class SyuntuTest {
     @Test 
     void countSyuntuTest() {
-        Syuntu demoSyuntu = new Syuntu(0);
+        Syuntu demoSyuntu = new Syuntu();
         demoSyuntu.addHai("i-wan", 1);
         demoSyuntu.addHai("ryan-wan", 2);
         demoSyuntu.addHai("san-wan", 3);
