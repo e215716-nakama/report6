@@ -22,11 +22,11 @@ public class Tehai {
         hai.put(haiName, haiNumber);
     }
 
-    public String tehaisuu(){
+    public void tehaisuu(){
         if(hai.size()==14){
-            return "手牌の数は正しいです";
+            System.out.println("手牌の数は正しいです");
         }else{
-            return "手配の数が正しくありません";
+            System.out.println("手配の数が正しくありません");
         }
     } 
 

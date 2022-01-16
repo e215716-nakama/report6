@@ -4,13 +4,17 @@ import java.util.*;
 public class Syuntu extends Mentu {
     private int countSyuntu;
 
+    public int getCountSyuntu() {
+        return countSyuntu;
+    }
+
     public Syuntu(int countSyuntu){
         super();
         this.countSyuntu = 0;
     }
 
     @Override
-    public int countMentu(Map<String,Integer> hai){
+    public void countMentu(Map<String,Integer> hai){
         ArrayList<Integer> list = new ArrayList<>();
         for(int i : hai.values()){
             list.add(i);
@@ -26,6 +30,6 @@ public class Syuntu extends Mentu {
                 }
             }
         }
-        return countSyuntu;
+        System.out.println("順子が"+countSyuntu+"通りあります");
     }
 }

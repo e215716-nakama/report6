@@ -6,6 +6,10 @@ public class Zyantou extends Mentu {
     private int count2;
     private int countZyantou;
 
+    public int getCountZyantou() {
+        return countZyantou;
+    }
+
     public Zyantou(int count,int count2,int countZyantou){
         this.count =0;
         this.count2 = 0;
@@ -13,7 +17,7 @@ public class Zyantou extends Mentu {
     }
 
     @Override
-    public int countMentu(Map<String,Integer> hai){
+    public void countMentu(Map<String,Integer> hai){
         ArrayList<Integer> list = new ArrayList<>();
         for(int i : hai.values()){
             list.add(i);
@@ -33,6 +37,6 @@ public class Zyantou extends Mentu {
                 }
             }         
         }
-        return countZyantou;
+        System.out.println("雀頭が"+countZyantou+"通りあります");
     }
 }

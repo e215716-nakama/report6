@@ -5,6 +5,10 @@ public class Kantu extends Mentu {
     private int count2;
     private int countKantu;
 
+    public int getCountKantu() {
+        return countKantu;
+    }
+
     public Kantu(int count,int count2,int countKantu){
         this.count =0;
         this.count2 = 0;
@@ -12,7 +16,7 @@ public class Kantu extends Mentu {
     }
 
     @Override
-    public int countMentu(Map<String,Integer> hai){
+    public void countMentu(Map<String,Integer> hai){
         ArrayList<Integer> list = new ArrayList<>();
         for(int i : hai.values()){
             list.add(i);
@@ -33,6 +37,6 @@ public class Kantu extends Mentu {
                 }
             }         
         }
-        return countKantu;
+        System.out.println("槓子が"+countKantu+"通りあります");
     }
 }

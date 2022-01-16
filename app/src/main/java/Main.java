@@ -15,14 +15,14 @@ public class Main{
         syuntu.addHai("ryan-wan", 2);
         syuntu.addHai("san-wan", 3);
         syuntu.printHai();
-        System.out.println(syuntu.countMentu(syuntu.getHai()));
+        syuntu.countMentu(syuntu.getHai());
 
         Kotu kotu = new Kotu(0,0,0);
         kotu.addHai("i-wan", 1);
         kotu.addHai("i--wan",1);
         kotu.addHai("i---wan", 1);
         kotu.printHai();
-        System.out.println(kotu.countMentu(kotu.getHai()));
+        kotu.countMentu(kotu.getHai());
 
         Kantu kantu = new Kantu(0, 0, 0);
         kantu.addHai("i-wan", 1);
@@ -30,12 +30,12 @@ public class Main{
         kantu.addHai("i---wan", 1);
         kantu.addHai("i----wan", 1);
         kantu.printHai();
-        System.out.println(kantu.countMentu(kantu.getHai()));
+        kantu.countMentu(kantu.getHai());
 
         Zyantou zyantou = new Zyantou(0,0,0);
         zyantou.addHai("i-wan", 1);
         zyantou.addHai("i--wan",1);
         zyantou.printHai();
-        System.out.println(zyantou.countMentu(zyantou.getHai()));
+        zyantou.countMentu(zyantou.getHai());
     }
 }

@@ -21,5 +21,5 @@ public abstract class Mentu {
         hai.put(haiName, haiNumber);
     }
 
-    public abstract int countMentu(Map<String, Integer> hai);
+    public abstract void countMentu(Map<String, Integer> hai);
 }
