@@ -7,6 +7,12 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class SyuntuTest {
+    /**
+     * 順子の数がしっかりと数えられているのか検証
+     * 検証手順
+     * (1)Syuntuクラスの空のHashMapを準備して、それに連続した値の牌をふ3つ追加する。
+     * (2)順子の数を調べると順子が1つとなるはず。これを検証する。
+     */
     @Test 
     void countSyuntuTest() {
         Syuntu demoSyuntu = new Syuntu();

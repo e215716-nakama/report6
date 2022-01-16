@@ -7,6 +7,12 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class KotuTest {
+    /**
+     * 刻子の数がしっかりと数えられているのか検証
+     * 検証手順
+     * (1)Kotuクラスの空のHashMapを準備して、それに同じ値の牌をふ3つ追加する。
+     * (2)刻子の数を調べると刻子が1つとなるはず。これを検証する。
+     */
     @Test 
     void countKotuTest() {
         Kotu demoKotu = new Kotu();

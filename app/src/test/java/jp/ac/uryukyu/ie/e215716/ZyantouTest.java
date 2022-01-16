@@ -7,6 +7,12 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ZyantouTest {
+    /**
+     * 雀頭の数がしっかりと数えられているのか検証
+     * 検証手順
+     * (1)Zyantouクラスの空のHashMapを準備して、それに同じ値の牌をふ2つ追加する。
+     * (2)雀頭の数を調べると雀頭が1つとなるはず。これを検証する。
+     */
     @Test 
     void countZyantouTest() {
         Zyantou demoZyantou = new Zyantou();

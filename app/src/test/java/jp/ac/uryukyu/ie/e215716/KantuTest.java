@@ -7,6 +7,12 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class KantuTest {
+    /**
+     * 槓子の数がしっかりと数えられているのか検証
+     * 検証手順
+     * (1)Kantuクラスの空のHashMapを準備して、それに同じ値の牌をふ4つ追加する。
+     * (2)槓子の数を調べると槓子が1つとなるはず。これを検証する。
+     */
     @Test 
     void countKantuTest() {
         Kantu demoKantu = new Kantu();
