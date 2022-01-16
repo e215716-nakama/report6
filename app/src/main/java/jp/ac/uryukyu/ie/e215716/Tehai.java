@@ -38,8 +38,8 @@ public class Tehai {
     /**
      * 手牌に牌を加えるメソッド。
      * 入力された引数をMapにputする。
-     * @param haiName　//牌の名前
-     * @param haiNumber //牌に設定された数値
+     * @param haiName　牌の名前
+     * @param haiNumber 牌に設定された数値
      */
     public void addTehai(String haiName,Integer haiNumber){
         hai.put(haiName, haiNumber);

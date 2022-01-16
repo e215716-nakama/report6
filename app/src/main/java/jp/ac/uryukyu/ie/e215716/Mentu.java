@@ -35,8 +35,8 @@ public abstract class Mentu {
     /**
      * 牌を加えるメソッド。
      * 入力された引数をMapにputする。
-     * @param haiName //牌の名前
-     * @param haiNumber //牌に設定された数値
+     * @param haiName 牌の名前
+     * @param haiNumber 牌に設定された数値
      */
     public void addHai(String haiName,Integer haiNumber){
         hai.put(haiName, haiNumber);
@@ -45,7 +45,7 @@ public abstract class Mentu {
     /**
      * 面子を数えるメソッド(抽象メソッド)。
      * 加えた牌の中に面子が何通りあるか数えて、出力する。
-     * @param hai //牌(牌の名前,牌に設定された数値)
+     * @param hai 牌(牌の名前,牌に設定された数値)
      */
     public abstract void countMentu(Map<String, Integer> hai);
 }
