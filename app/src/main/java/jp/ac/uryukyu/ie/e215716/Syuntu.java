@@ -28,7 +28,7 @@ public class Syuntu extends Mentu {
     /**
      * 順子を数えるメソッド。
      * 加えた牌の中に順子が何通りあるか数えて、出力する。
-     * @param hai ////牌(牌の名前,牌に設定された数値)
+     * @param hai 牌(牌の名前,牌に設定された数値)
      */
     @Override
     public void countMentu(Map<String,Integer> hai){
